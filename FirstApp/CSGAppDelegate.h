@@ -7,8 +7,13 @@
 //
 
 #import <UIKit/UIKit.h>
+//  this is a framework so need angle brackets
+
+#import "CSGViewController.h"
+//  this is our own class so only need quotes
 
 @interface CSGAppDelegate : UIResponder <UIApplicationDelegate>
+// in angle brackets, is a protocol - we are conforming to that protocol
 
 @property (strong, nonatomic) UIWindow *window;
 

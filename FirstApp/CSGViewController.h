@@ -10,4 +10,11 @@
 
 @interface CSGViewController : UIViewController
 
+@property (nonatomic, weak) IBOutlet UISwitch *mySwitch;
+//  weak means that the storyboard owns it
+
+@property (nonatomic, weak) IBOutlet UISlider *mySlider;
+
+- (IBAction)logSwitchStatus:(id)sender;
+
 @end
