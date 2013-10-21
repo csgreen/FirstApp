@@ -14,6 +14,10 @@
 //  weak means that the storyboard owns it
 
 @property (nonatomic, weak) IBOutlet UISlider *mySlider;
+// @property(nonatomic) float value;
+// @property (nonatomic, assign) float minimumValue;
+
+// @property (nonatomic, assign) float maximumValue;
 
 - (IBAction)logSwitchStatus:(id)sender;
 

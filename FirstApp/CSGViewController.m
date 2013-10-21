@@ -25,9 +25,10 @@
 }
 
 - (IBAction)logSliderStatus:(id)sender
+
 {
-    if (_mySlider.value > 1) {
-        NSLog(@"Max Amount");
+    if (((UISlider*)sender).value > .5) {
+        NSLog(@"Good job!");
     }else{
         NSLog(@"Not Enough");
     }
