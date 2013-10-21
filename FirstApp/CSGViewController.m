@@ -30,7 +30,7 @@
     if (((UISlider*)sender).value > .5) {
         NSLog(@"Good job!");
     }else{
-        NSLog(@"Not Enough");
+        
     }
 }
 
