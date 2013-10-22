@@ -21,4 +21,6 @@
 
 - (IBAction)logSwitchStatus:(id)sender;
 
+@property(nonatomic, readonly) id destinationViewController;
+
 @end

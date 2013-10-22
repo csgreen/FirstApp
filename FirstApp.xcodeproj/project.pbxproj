@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		CFC6A390181609800084FC24 /* Page2ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CFC6A38F181609800084FC24 /* Page2ViewController.m */; };
 		CFEDED0D1810D9E400DEFA99 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CFEDED0C1810D9E400DEFA99 /* Foundation.framework */; };
 		CFEDED0F1810D9E400DEFA99 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CFEDED0E1810D9E400DEFA99 /* CoreGraphics.framework */; };
 		CFEDED111810D9E400DEFA99 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CFEDED101810D9E400DEFA99 /* UIKit.framework */; };
@@ -34,6 +35,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		CFC6A38E181609800084FC24 /* Page2ViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Page2ViewController.h; sourceTree = "<group>"; };
+		CFC6A38F181609800084FC24 /* Page2ViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Page2ViewController.m; sourceTree = "<group>"; };
 		CFEDED091810D9E400DEFA99 /* FirstApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FirstApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		CFEDED0C1810D9E400DEFA99 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		CFEDED0E1810D9E400DEFA99 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -114,6 +117,8 @@
 			children = (
 				CFEDED1B1810D9E500DEFA99 /* CSGAppDelegate.h */,
 				CFEDED1C1810D9E500DEFA99 /* CSGAppDelegate.m */,
+				CFC6A38E181609800084FC24 /* Page2ViewController.h */,
+				CFC6A38F181609800084FC24 /* Page2ViewController.m */,
 				CFEDED1E1810D9E500DEFA99 /* Main.storyboard */,
 				CFEDED211810D9E500DEFA99 /* CSGViewController.h */,
 				CFEDED221810D9E500DEFA99 /* CSGViewController.m */,
@@ -252,6 +257,7 @@
 			files = (
 				CFEDED1D1810D9E500DEFA99 /* CSGAppDelegate.m in Sources */,
 				CFEDED231810D9E500DEFA99 /* CSGViewController.m in Sources */,
+				CFC6A390181609800084FC24 /* Page2ViewController.m in Sources */,
 				CFEDED191810D9E500DEFA99 /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -461,6 +467,7 @@
 				CFEDED3D1810D9E500DEFA99 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		CFEDED3E1810D9E500DEFA99 /* Build configuration list for PBXNativeTarget "FirstAppTests" */ = {
 			isa = XCConfigurationList;
@@ -469,6 +476,7 @@
 				CFEDED401810D9E500DEFA99 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

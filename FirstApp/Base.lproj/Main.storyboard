@@ -43,7 +43,7 @@
                                     <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
                                 <connections>
-                                    <segue destination="os1-mw-KAF" kind="modal" id="S5V-Ae-AWB"/>
+                                    <segue destination="os1-mw-KAF" kind="modal" id="f6O-Bp-95E"/>
                                 </connections>
                             </button>
                         </subviews>
